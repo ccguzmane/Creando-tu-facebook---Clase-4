@@ -16,6 +16,10 @@ class PersonalController extends BaseController{
            return View::make('registro.paciente');
            
        }
+    } 
+    
+    public function getEliminar(){
+        echo "estoy editando";
         
-    }   
+    }
 }
