@@ -1,14 +1,8 @@
 <?php
 
-
-Route::get('/', function()
+Route::get('/test', function()
 {
-	return View::make('hello');
+	return View::make('perfil.perfil')
+                ->with("nombre","Christian");
+                
 });
-
-Route::get('/prueba', function()
-{
-	return View::make('prueba');
-});
-
-Route::controller('personal','PersonalController');

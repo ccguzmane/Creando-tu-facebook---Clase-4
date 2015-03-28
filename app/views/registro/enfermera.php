@@ -1,2 +1,0 @@
-estoy registrando una enfermera
-
